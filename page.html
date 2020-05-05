@@ -1,0 +1,717 @@
+<meta content="initial-scale=1.0, width=device-width" name="viewport">
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=edge">-->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"> <meta charset="UTF-8">
+<!--[if lt IE 9]> <script src="https://spiceportal.schneider-electric.com/gip-green-theme/js/html5.js"></script> <![endif]-->
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<script src="https://spiceportal.schneider-electric.com/documents/10427/42253135/Script/4a25d2aa-5bea-49a6-bdfd-4b25035ddbbf"></script><!-- Script -->
+<link rel="stylesheet" href="https://spiceportal.schneider-electric.com/documents/10427/42253135/StyleSheet/3e324150-3fc3-4a48-bb12-16721d3613a5"><!-- StyleSheet -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://schneider-electric.box.com/shared/static/9kzvw6oattd0guxo0k35l3qs99dasoq2"><!-- Hover.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+p>a:link,p>a:active
+{
+font-weight:normal;
+line-height:16px;
+}
+</style>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<style type="text/css">
+
+
+    .df-logo-footer {
+    float: left;
+    width: 200px;
+    display: none;
+    }
+    .df-footer__legal {
+        color: #A0A0A0;
+        float: right;
+        font-size: 12px;
+        margin: -10px 0 20px;
+        text-align: right;
+        display: none;
+    }
+
+    table {
+        background: rgb(61, 205, 88);
+    }
+
+    th, td {
+      width: 14.28%;
+    }
+
+      .flip-container {
+        -webkit-perspective: 1000;
+        -moz-perspective: 1000;
+        -o-perspective: 1000;
+        perspective: 1000;
+        transform-style: preserve-3d;
+      }
+
+      @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+         .flip-container:hover .back {
+            transform: scale(-1, 1);
+
+          }
+          .flip-container:hover .front {
+              transform: rotateX(180deg);
+          }
+      }
+
+      .flip-container:hover .flipper,  
+      .flip-container.hover .flipper {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+      }
+
+      .flip-container, .front, .back {
+        width: 260px;
+        height: 340px;
+        margin: auto;
+      }
+
+      .flipper {
+        -webkit-transition: 0.6s;
+        -webkit-transform-style: preserve-3d;
+
+        -moz-transition: 0.6s;
+        -moz-transform-style: preserve-3d;
+        
+        -o-transition: 0.6s;
+        -o-transform-style: preserve-3d;
+
+        transition: 0.6s;
+        transform-style: preserve-3d;
+
+        position: relative;
+      }
+
+      .front, .back {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+
+        transition: 0.6s;
+        transform-style: preserve-3d;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .front {
+        z-index: 2;
+        transform: rotateY(0deg);
+      }
+
+      .back {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        background: #DDDDDD;
+        height: 323px;
+      }
+
+      .front .name {
+        font-size: 2em;
+        display: inline-block;
+        background: rgba(33, 33, 33, 0.9);
+        color: #f8f8f8;
+        font-family: arial;
+        padding: 5px 10px;
+        border-radius: 5px;
+        bottom: 60px;
+        left: 25%;
+        position: absolute;
+        text-shadow: 0.1em 0.1em 0.05em #333;
+
+        -webkit-transform: rotate(-20deg);
+        -moz-transform: rotate(-20deg);
+        -o-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+      }
+
+      .back-title {
+        font-weight: bold;
+        color: #00304a;
+        position: absolute;
+        top: 180px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+        font-family: arial;
+        font-size: 2em;
+      }
+
+      .back p {
+        text-align: left;
+        padding: 15px;
+        font-size: 1em;
+  
+      }
+
+      .my-heading {
+        font-weight: 600;
+        font-size: 20px;
+        color: #3DCD58;
+      }
+
+      th {
+        background-color: #3DCD58;
+        color: #FFFFFF;
+      }
+
+      td {
+        color: #626469;
+        font-size: 1em;
+      }
+
+      td>a {
+          color: #42B4E6 !important;
+          font-size: 1em !important;
+      }
+
+      .fixed-header {
+        position: fixed;
+        top:0;
+        width: 100%; 
+      }
+
+      nav {
+        width:100%;
+        max-width: 1140px;
+        height:50px;
+        background: #292f36;
+        position:fixed;
+        z-index:10;
+      }
+
+  </style>
+
+<script>
+  $(window).scroll(function(){
+      if ($(window).scrollTop() >= 150) {
+         $('nav').addClass('fixed-header');
+      }
+      else {
+         $('nav').removeClass('fixed-header');
+      }
+  });
+</script>
+<script>
+function popupwindow(url, title, w, h) {
+  var left = (screen.width/2)-(w/2);
+  var top = (screen.height/2)-(h/2);
+  return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+} 
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121809168-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121809168-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121854637-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121854637-1');
+</script>
+<script type="text/javascript">
+  function lsearch(id) {
+    //alert("function");
+    //var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=";
+    //var ids = id;
+    //var res = static.concat(ids);
+    //alert(res);
+    //window.open(res);
+    window.open(id);
+  }
+
+  function redirectme(id) {
+    window.open(id);
+  }
+
+  function vplayer(id) {
+    window.open(id);
+  }
+
+ function hideMyModal() {
+    $('#chineseModal').modal('hide'); 
+    $('#frenchModal').modal('hide'); 
+    $('#germanModal').modal('hide'); 
+    $('#hungarianModal').modal('hide'); 
+    $('#italianModal').modal('hide'); 
+    $('#portgueseModal').modal('hide'); 
+    $('#spanishModal').modal('hide');  
+  }
+</script>
+
+
+<div class="container mybdy">
+    <div class="row">
+        <img src="https://schneider-electric.box.com/shared/static/wxm4tk2mzuc5h0tbu50328ub1wcmlg3o" alt="banner" class="img-responsive xs-hidden" width="100%" style="margin: auto;">
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="row">
+        <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-size: 26px; color: #3DCD58; margin: auto;">Be the actor of your own development and become a Digital Worker!</p>
+    </div>    
+
+    <div class="clearfix">&nbsp;</div>
+
+    <div style="margin: auto;">
+      <div class="row">
+            <h4 style="padding: 10px;background-color: #DDD;border-radius: 10px;">About Schneider</h4>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Introductory Video -->
+                 <img src="https://schneider-electric.box.com/shared/static/n73n0c99b8wwrccq4uaa7uuszm85955p" width="100%" data-toggle="modal" data-target="#videoModal" style="cursor: pointer;" class="hvr-box-shadow-inset">
+            </div>
+            <!-- Introductory Video Modal -->
+              <div class="modal fade" id="videoModal" role="dialog">
+                <div class="modal-dialog">
+                
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Introductory Video</h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><a data-toggle="modal" data-target="#chineseModal" style="cursor: pointer;">中文</a></li>
+                            <li><a id="https://schneider-electric.box.com/s/3g60v2ame4yci7z8iywwupn3azeqosm6" onclick="vplayer(this.id)" style="cursor: pointer;">English</a></li>
+                            <li><a data-toggle="modal" data-target="#frenchModal" style="cursor: pointer;">Français</a></li>
+                            <!-- <li><a data-toggle="modal" data-target="#germanModal" style="cursor: pointer;">Deutsche</a></li> -->
+                            <li><a id="https://schneider-electric.box.com/s/t2gjstprbb8jqmdbrnq67ov7t0xhva8z" onclick="vplayer(this.id)" style="cursor: pointer;">Deutsche</a></li>
+                            <!-- <li><a data-toggle="modal" data-target="#hungarianModal" style="cursor: pointer;">Magyar</a></li> -->
+                            <li><a id="https://schneider-electric.box.com/s/r8qru3reudom624ggzyqgjsvqhxqw24m" onclick="vplayer(this.id)" style="cursor: pointer;">Magyar</a></li>
+                            <!-- <li><a data-toggle="modal" data-target="#italianModal" style="cursor: pointer;">Italiano</a></li> -->
+                            <li><a id="https://schneider-electric.box.com/s/4ykii8r8n0muqf9ed6gwa2w3ue3n1ufg" onclick="vplayer(this.id)" style="cursor: pointer;">Italiano</a></li>
+                            <li><a data-toggle="modal" data-target="#portugueseModal" style="cursor: pointer;">Português</a></li>
+                            <li><a data-toggle="modal" data-target="#spanishModal" style="cursor: pointer;">Español</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Stay Safe & Healthy -->
+                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="https://schneider-electric.box.com/shared/static/ieyso4etvoukecobr4i7mj17bgriw7fy" width="100%">
+                        </div>
+                        <div class="back">
+                           <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                             
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253daec65619-0028-41fd-8b2a-e271b03bd634" onclick="lsearch(this.id)" style="cursor: pointer;">Safety at Schneider Electric</a></li>
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d8aa13dce-9131-4fe0-bbe0-161f97619d28" onclick="lsearch(this.id)" style="cursor: pointer;">Electrical Safety</a></li>
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253df071a41f-8417-49a9-bed8-5bddd56dc56f" onclick="lsearch(this.id)" style="cursor: pointer;">Ergonomics</a></li>
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d8d2c8349-faa6-403c-bb87-633406b92bc6" onclick="lsearch(this.id)" style="cursor: pointer;">Start Safe</a></li>
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d2cfd0b42-9358-4508-8c81-5dfb9b3f3545" onclick="lsearch(this.id)" style="cursor: pointer;">Other Topics</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Know Schneider -->
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="https://schneider-electric.box.com/shared/static/lubd5g14sq6emb96iy2kpzuttl62qqdc" width="100%">
+                        </div>
+                        <div class="back">
+                           <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253dfc611aea-3c2e-4795-bf02-18f0d846e6bc" onclick="lsearch(this.id)" style="cursor: pointer;">Schneider Essentials</a></li>
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d8eeebe2d-9844-42cb-86ea-58c9823f2a14" onclick="lsearch(this.id)" style="cursor: pointer;">EcoStruxure</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Customer First -->
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="https://schneider-electric.box.com/shared/static/h3y4q2gzv6mscdb3lxh4nc310b58vwod" width="100%">
+                        </div>
+                        <div class="back">
+                           <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                             <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d6ee48eb1-eda3-488a-8985-66b5fc00a081" onclick="lsearch(this.id)" style="cursor: pointer;">Customer First</a></li>
+                             <li><a id="https://spiceportal.se.com/group/customer-satisfaction/personas" onclick="lsearch(this.id)" style="cursor: pointer;">Persona</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="clearfix" style="line-height: 0px;">&nbsp;</div>
+
+        <div class="row">
+            <h4 style="padding: 10px;background-color: #DDD;border-radius: 10px;">Professional Development</h4>
+
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Logistics & Smart DC -->
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="https://schneider-electric.box.com/shared/static/kbsbyp524j14kudv8hb0q8fukes7d0rr" width="100%">
+                            </div>
+                            <div class="back">
+                               <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d0872b024-4422-4027-a1a3-c7f608e99408" onclick="lsearch(this.id)" style="cursor: pointer;">Warehouse Management Awareness</a></li>
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d39ac8437-5018-4478-8e76-ff005776be79" onclick="lsearch(this.id)" style="cursor: pointer;">Smart DC</a></li>
+                                 <li><a id="https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3e4c5a27-6249-4ee3-9f8b-b39fc3af037b" onclick="lsearch(this.id)" style="cursor: pointer;">Transport</a></li>
+                               </ul>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Lean Manufacturing & Smart Factory -->
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="https://schneider-electric.box.com/shared/static/4hjcwdhzs9hmolby56mb3vrm92gqdtv8" width="100%">
+                            </div>
+                            <div class="back">
+                               <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d3f1f8d8d-169c-4b77-8c27-6444d9b679fd" onclick="lsearch(this.id)" style="cursor: pointer;">Lean Manufacturing</a></li>
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d0a34d24d-236b-4ec5-849c-5df9e8a8b734" onclick="lsearch(this.id)" style="cursor: pointer;">Short Interval Management</a></li>
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d9450cc24-afe3-41f6-a96b-f321f95b7b09" onclick="lsearch(this.id)" style="cursor: pointer;">Smart Factory</a></li>
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d619ffa7e-aaad-4a2d-bb89-e9de2f1e34d5" onclick="lsearch(this.id)" style="cursor: pointer;">Supply Chain Management</a></li>
+                               </ul>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Optimize ETO Processes -->
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="https://schneider-electric.box.com/shared/static/fo3byify3ubthshzj9af5s65na5sn4my" width="100%">
+                            </div>
+                            <div class="back">
+                               <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                                 <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d363266cc-8f98-4295-8272-c8311bbf2231" onclick="lsearch(this.id)" style="cursor: pointer;">Optimize ETO Processes</a></li>
+                               </ul>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Plant Specific Content -->
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="https://schneider-electric.box.com/shared/static/fga8hipx83f279d3vq0eg2hxx87al8x2" width="100%">
+                            </div>
+                            <div class="back">
+                             <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                               <li><a id="" onclick="lsearch(this.id)" style="cursor: pointer;">Plant Specific Training</a></li>
+                             </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+        </div>
+
+        <div class="clearfix" style="line-height: 0px;">&nbsp;</div>
+
+        <div class="row">
+            <h4 style="padding: 10px;background-color: #DDD;border-radius: 10px;">Personal Development</h4>
+              
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Develop Your Personal Skills -->
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                          <div class="front">
+                              <img src="https://schneider-electric.box.com/shared/static/yq2bk1ko0pk50kvcqrvgpusd5vb3sul5" width="100%">
+                          </div>
+                          <div class="back">
+                             <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d6109b7b2-fbb9-45e1-8042-7c07b6720171" onclick="lsearch(this.id)" style="cursor: pointer;">Together, We Grow!</a></li>
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d9d19644f-9da2-4173-b002-0fdb1893c831" onclick="lsearch(this.id)" style="cursor: pointer;">Communication & I</a></li>
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d9d19644f-9da2-4173-b002-0fdb1893c831" onclick="lsearch(this.id)" style="cursor: pointer;">Change Avengers</a></li>
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d66c99708-7401-4428-98e4-d58776723717" onclick="lsearch(this.id)" style="cursor: pointer;">Secrets of Happiness</a></li>
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d9920df8b-f1e4-48f5-8eda-ab8e28c974a9" onclick="lsearch(this.id)" style="cursor: pointer;">Healthy Mind, Body & Soul</a></li>
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d9920df8b-f1e4-48f5-8eda-ab8e28c974a9" onclick="lsearch(this.id)" style="cursor: pointer;">Entrepreneur Starting Kit</a></li>
+                             </ul>
+                          </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Learn a Language -->
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                          <div class="front">
+                              <img src="https://schneider-electric.box.com/shared/static/9w83ay4dbiyk05b7ljx7on1vky0hml5t" width="100%">
+                          </div>
+                          <div class="back">
+                             <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                               <li><a id="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dloRegisterAndLaunch%2526lo%253d5185d027-40a9-40ca-bd56-8c7968ff44f4" onclick="redirectme(this.id)" style="cursor: pointer; color: #42494c;">goFluent</a></li>
+                             </ul>
+                          </div>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Grow Your Digital Skills -->
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                          <div class="front">
+                              <img src="https://schneider-electric.box.com/shared/static/gb5s8svpx2s0ket7r4hgkq3hewkf66ew" width="100%">
+                          </div>
+                          <div class="back">
+                               <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                                 <li><a href="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253db77af45c-3c0d-440d-8154-012d8b1fd5d6" target="_blank">Microsoft Office 365</a></li>
+                                 <div class="clearfix">&nbsp;</div>
+                                 <div class="row">
+                                      <a href="https://www.youtube.com/watch?v=lgIWIPDJuPo&index=3&list=PLpQQipWcxwt9kEYnMTd8nBuRxC3LFmera" target="_blank"><div class="col-sm-4 col-xs-4"><img src="https://schneider-electric.box.com/shared/static/4wrrkkr9gtzq5vgz4vbblm0bs79gmubk" width="100%" /></div></a>
+                                      <a href="https://www.youtube.com/watch?v=rrsb6OdBGzk&list=PLpQQipWcxwt80GgHQBPtO7fZrH7zgb-kH" target="_blank"><div class="col-sm-4 col-xs-4"><img src="https://schneider-electric.box.com/shared/static/reofhs2uv06ozy4l1qzvsji0wbu6y7u9" width="100%" /></div></a>
+                                      <a href="https://www.youtube.com/watch?v=j-ZAVHk5SaU&index=2&list=PLpQQipWcxwt-CU7fh1_3v-STktoEc0tsL" target="_blank"><div class="col-sm-4 col-xs-4"><img src="https://schneider-electric.box.com/shared/static/zoppbi816xe4kvtbshknsjadxa2vymn1" width="100%" /></div></a>
+                                 </div>
+                               </ul>
+                            </div>
+                      </div>
+                    </div>
+              </div> 
+
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"> <!-- Additional Resources -->
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                          <div class="front">
+                              <img src="https://schneider-electric.box.com/shared/static/bxfyk6q86uvnc3n7zkqvm53cfb3qh5hk" width="100%">
+                          </div>
+                          <div class="back">
+                             <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
+                               <li><a href="https://schneider-electric.csod.com/" target="_blank">My LearningLink</a></li>
+                               <li><a href="https://schneider-electric.csod.com/LMS/BrowseTraining/BrowseTrainingHome.aspx?tab_page_id=-1700000" target="_blank">Browse the Catalog</a></li>
+                               <li><a href="https://schneider-electric.coorpacademy.com/dashboard" target="_blank">Schneider IQ</a></li>
+                               <li><a href="https://spiceportal.schneider-electric.com/web/my-learning/global-supply-chain-academy1" target="_blank">GSC Academy</a></li>
+                               <li><a href="https://spiceportal.se.com/web/high-performance-culture-philosophy/employee-development" target="_blank">Employee Development Portal</a></li>
+                               <li><a href="https://schneider-electric.csod.com/catalog/CustomPage.aspx?id=20000563" target="_blank">Cross-Functional Learning Corner</a></li>
+                               <li><a href="https://www.youtube.com/watch?v=ru032Mfsfig" target="_blank">Basic Electrical Theory</a></li>
+                               <li><a href="https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d72225deb-f787-4846-9acd-3d63ea007877" target="_blank">External Digital Trainings</a></li>
+                             </ul>
+                          </div>
+                      </div>
+                    </div>
+              </div>
+        </div>
+
+    </div>
+
+    <div class="clearfix">&nbsp;</div> 
+
+    <div class="row">
+      <h2 style="color: #FFFFFF; background-color: #3DCD58; text-align: center; padding: 10px; font-size: 26px; font-weight: 100;"><!-- Share your learning with others and through <a href="https://www.yammer.com/schneider-electric.com/topics/28156720#" target="_blank"><span style="color: #FFFFFF; font-size: 26px; font-weight: 100; text-decoration: underline;">#whatdidyoulearntoday</span></a><br /> -->
+      Happy Digital Learning!</h2>
+    </div>   
+
+</div>
+
+<!-- Modals -->
+
+<!-- Chinese Modal -->
+<div class="modal fade" id="chineseModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Translation Available</h4>
+      </div>
+      <div class="modal-body">
+        <p>该页可选择中文。请在My LearningLink个人账号中，找到中文，修改你的显示语言。</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">是的，我想要修改！</button></a>
+        <a href="https://schneider-electric.box.com/s/fv9jzg9cjues3p0zkk2nyykj41vawi8y" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">不，谢谢！</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- French Modal -->
+<div class="modal fade" id="frenchModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Traduction disponible</h4>
+      </div>
+      <div class="modal-body">
+        <p>Cette page est également disponible en français. Veuillez changer votre langue d'affichage en français dans le profil My LearningLink pour accéder à cette page en français.</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">Oui, je veux changer !</button></a>
+        <a href="https://schneider-electric.box.com/s/khlpg49tcvh2uloeqiob0al5um6tl4db" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">Non, merci !</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- German Modal -->
+<div class="modal fade" id="germanModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Translation Available</h4>
+      </div>
+      <div class="modal-body">
+        <p>Diese Seite ist auch auf Deutsch verfügbar. Bitte ändern Sie Ihre Anzeigesprache im My LearningLink-Profil auf Deutsch, um auf diese Seite in Deutsch zuzugreifen.</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">Yes, I want to change!</button></a>
+        <a href="https://schneider-electric.box.com/s/t2gjstprbb8jqmdbrnq67ov7t0xhva8z" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">No, Thanks!</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Hungarian Modal -->
+<div class="modal fade" id="hungarianModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Translation Available</h4>
+      </div>
+      <div class="modal-body">
+        <p>Ez az oldal magyarul is elérhető. Kérjük, hogy a My LearningLink profilban módosítsa nyelvét a magyar nyelvre, hogy ezt az oldalt magyarul elérje.</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">Yes, I want to change!</button></a>
+        <a href="https://schneider-electric.box.com/s/r8qru3reudom624ggzyqgjsvqhxqw24m" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">No, Thanks!</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Italian Modal -->
+<div class="modal fade" id="italianModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Translation Available</h4>
+      </div>
+      <div class="modal-body">
+        <p>Questa pagina è disponibile anche in italiano. Si prega di cambiare la lingua del display in italiano nel profilo My LearningLink per accedere a questa pagina in italiano.</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">Yes, I want to change!</button></a>
+        <a href="https://schneider-electric.box.com/s/4ykii8r8n0muqf9ed6gwa2w3ue3n1ufg" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">No, Thanks!</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Portuguese Modal -->
+<div class="modal fade" id="portugueseModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Tradução disponível</h4>
+      </div>
+      <div class="modal-body">
+        <p>Essa página também está disponível em Português. Por favor, selecione a língua para Português no perfil do My Learning Link para acessar essa página em Português.</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">Sim. Eu quero mudar!</button></a>
+        <a href="https://schneider-electric.box.com/s/ofq008fj0lmor2jo95u5b180fxmaqzic" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">Não. Obrigado!</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Spanish Modal -->
+<div class="modal fade" id="spanishModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Traducción disponible</h4>
+      </div>
+      <div class="modal-body">
+        <p>Este portal también está disponible en español. ¡Cambie su idioma de visualización al español yendo a su perfil en My LearningLink para ver toda esta página en español!</p>        
+      </div>
+      <div class="modal-footer">
+        <a href="/catalog/Prefs.aspx" target="_blank"><button type="button" class="btn btn-success" onclick="hideMyModal();">Sí, quiero cambiar!</button></a>
+        <a href="https://schneider-electric.box.com/s/xpgco6l23tlzz79o41v4ln20r1ss4qvk" target="_blank"><button type="button" class="btn btn-info" onclick="hideMyModal();">¡No, gracias!</button></a>
+      </div>
+    </div>
+    
+  </div>
+</div>

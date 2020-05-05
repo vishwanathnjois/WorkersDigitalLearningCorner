@@ -1,0 +1,301 @@
+.mybdy {
+    color: #009530;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a:link, a:visited {
+    color: #42494c;
+    font-size: 14px;
+}
+
+.myheading {
+    font-size: 16px;
+    color: #3FC542;
+}
+
+.mybox {
+    border: thin solid #E7E6E6;
+    min-height: 318px;
+    max-height: 100%;
+}
+
+.mybox2 {
+    border: thin solid #E7E6E6;
+    min-height: 257px;
+    max-height: 100%;
+}
+
+.mybox1 {
+    min-height: 227px;
+    height: 100%;
+}
+
+.div-headings {
+    background-color: #009530;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.div-body {
+    color: #42494c;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.mytext {
+    font-size: 14px;
+    color: #42494c;
+}
+
+.read-more {
+    cursor: pointer;
+    color: #009ae5;
+    text-decoration: underline;
+}
+
+.date {
+    color: #03a751;
+    float: left;
+    line-height: 27px;
+}
+
+.ceb-content {
+    margin-left: 70px;
+}
+
+.col {
+    border: thin solid #e7e6e6;
+    float: left;
+    min-height: 72px;
+    padding: 10px;
+    width: 48%;
+}
+
+.row1 {
+    float: left;
+    width: 100%;
+}
+
+.box {
+        border: thin solid #e7e6e6;
+        color: #42494c;
+        min-height: 70px;
+        padding: 24px 0 0 5px;
+}
+
+@media (<768px) {
+    
+    .box {
+        border: thin solid #e7e6e6;
+        color: #42494c;
+        min-height: 70px;
+        padding: 18px 0 0 18px;
+    }
+}
+
+.learning-path {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal-body {
+    width: 80%;
+}
+
+.lp-headings {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 3% 0 3% 35%;
+}
+
+.lp-content {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.exposure {
+    background: #009530 none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.experience {
+    background: #87D300 none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 1001;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width: 800px;
+    width: 90%;
+    padding: 0 40px 40px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0,0,0,1);
+    border-radius: 5px;
+    background: #fff;
+    max-height: 90%;
+    overflow-y: scroll;
+}
+ 
+/* Close Button */
+
+.popup-close {
+    display:inline-block;
+    position:absolute;
+    top:15px;
+    right:15px;
+    color:#646464;;
+}
+ 
+.popup-close:hover {
+   color: #3DCD58;
+    text-decoration:none;
+}
+
+.popup-inner ul a:link, .popup-inner ul a:visited {
+    color: #646464;
+}
+
+.popup-inner ul a:hover {
+    color: #3FC542;
+}
+
+.popup-heading {
+    color: #3DCD58;
+    font-size: 16px;
+    
+}
+
+.popup-header {
+    color: #3DCD58;
+    padding: 20px 0 10px 0;
+    font-size: 20px;
+    border-bottom: thin solid #F4F4F4;
+}
+
+.focus-on {
+    background: #eee none repeat scroll 0 0;
+    border-bottom: 1px solid #b9b9b9;
+    height: 68px;
+    padding: 20px 0 0 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.focus-on-text {
+    border-left: 3px solid #cfcfcf;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+}
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 5px 15px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+
+.border-right {
+    border-right: solid thin #626469;
+}
+
+.border-left {
+    border-left: solid thin #626469;
+}
+
+.border {
+    border: solid thin #626469;
+}
+
+.top-teachers {
+    background-color: #9FA0A4;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.top-teachers a:link {
+      color: #FFFFFF;  
+}  
+
+.top-teachers a:hover {
+      color: #FFFFFF;  
+}   
+
+.top-teachers a:visited {
+      color: #FFFFFF;  
+}  
+
+.img-teacher {
+    width:200px;
+    height: 200px;
+    border:2px solid #FFFFFF;
+}
+
+.contact-text {
+    font-size: 10px;
+}
