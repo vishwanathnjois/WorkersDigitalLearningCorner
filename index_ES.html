@@ -262,13 +262,59 @@ function popupwindow(url, title, w, h) {
 </script>
 <script type="text/javascript">
   function lsearch(id) {
-    //alert("function");
-    //var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=";
-    //var ids = id;
-    //var res = static.concat(ids);
-    //alert(res);
-    //window.open(res);
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=";
+    var ids = id;
+    var res = static.concat(ids);
+    window.open(res);
+  }
+
+  function openLink(id) {
     window.open(id);
+  }
+
+  function lsearchLogistics(id) {
+    //alert("function");
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1243, 1314, 1315, 1317, 1318, 1313, 1319, 1320, 1321&query=";
+    var ids = id;
+    var res = static.concat(ids);
+    //alert(res);
+    window.open(res);
+  }
+
+  function lsearchHNS(id) {
+    //alert("function");
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1265, 1266, 1267, 1268&query=";
+    var ids = id;
+    var res = static.concat(ids);
+    //alert(res);
+    window.open(res);
+  }
+
+  function lsearchCSQ(id) {
+    //alert("function");
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=778, 1762 ,1395 ,1763 ,1769 ,1768 ,1758 ,1757 ,1385 ,1756 ,1771 ,1760 ,1389 ,1759 ,1766&query=";
+    var ids = id;
+    var res = static.concat(ids);
+    //alert(res);
+    window.open(res);
+  }
+
+  function lsearchIndustrialization(id) {
+    //alert("function");
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1241, 1292 ,1297 ,1294 ,1291 ,1296 ,1290 ,1293 ,1295 ,1677&query=";
+    var ids = id;
+    var res = static.concat(ids);
+    //alert(res);
+    window.open(res);
+  }
+
+  function lsearchManufacturing(id) {
+    //alert("function");
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1240, 1284 ,1285 ,1283 ,1286&query=";
+    var ids = id;
+    var res = static.concat(ids);
+    //alert(res);
+    window.open(res);
   }
 
   function redirectme(id) {
@@ -279,14 +325,14 @@ function popupwindow(url, title, w, h) {
     window.open(id);
   }
 
- function hideMyModal() {
-    $('#chineseModal').modal('hide'); 
-    $('#frenchModal').modal('hide'); 
-    $('#germanModal').modal('hide'); 
-    $('#hungarianModal').modal('hide'); 
-    $('#italianModal').modal('hide'); 
-    $('#portgueseModal').modal('hide'); 
-    $('#spanishModal').modal('hide');  
+  function hideMyModal() {
+    $('#chineseModal').modal('hide');
+    $('#frenchModal').modal('hide');
+    $('#germanModal').modal('hide');
+    $('#hungarianModal').modal('hide');
+    $('#italianModal').modal('hide');
+    $('#portgueseModal').modal('hide');
+    $('#spanishModal').modal('hide');
   }
 </script>
 
@@ -457,7 +503,12 @@ function popupwindow(url, title, w, h) {
                             </div>
                             <div class="back">
                              <ul style="list-style-image: url('https://schneider-electric.box.com/shared/static/0bu21kz4vq63p8be91tchx5qcew46pqw'); border: none; text-decoration: none; line-height: 26px; padding: 10% 33px;">
-                               <li><a id="" onclick="lsearch(this.id)" style="cursor: pointer;">Contenido específico de la planta</a></li>
+                              <li><a id="GSCWDLCPST" onclick="lsearchCSQ(this.id)" style="cursor: pointer;">Customer Satisfaction & Quality</a></li>
+                              <li><a id="GSCWDLCPST" onclick="lsearchHNS(this.id)" style="cursor: pointer;">Health & Safety</a></li>
+                              <li><a id="GSCWDLCPST" onclick="lsearchIndustrialization(this.id)" style="cursor: pointer;">Industrialization</a></li>
+                              <li><a id="GSCWDLCPST" onclick="lsearchLogistics(this.id)" style="cursor: pointer;">Logistics</a></li>
+                              <li><a id="GSCWDLCPST" onclick="lsearchManufacturing(this.id)" style="cursor: pointer;">Manufacturing</a></li>
+                              <li><a id="GSCWDLCPST" onclick="lsearch(this.id)" style="cursor: pointer;">All</a></li>
                              </ul>
                           </div>
                         </div>
