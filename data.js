@@ -1,62 +1,100 @@
 $(document).ready(function () {
     $("#wdlc1").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCH%26SE0001038");
-
     $("#wdlc2").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCSAFE000003%20GSCH%26SE0001037");
-
     $("#wdlc3").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCSAFE000104%20GSCH%26SE0001002");
-
     $("#wdlc4").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCH%26SE0001024%20GSCH%26SE0001025%20GSCH%26SE0001016%20GSCH%26SE0001020%20GSCH%26SE0001031");
-
     $("#wdlc5").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCSAFE000106%20GSCH%26SE0001004%20GSCH%26SE0001009%20GSCH%26SE0001011%20GSCH%26SE0001010%20GSCH%26SE0001007%20GSCH%26SE0001001%20GSCH%26SE0001120%20GSCH%26SE0001061%20GSCH%26SE0001067%20GSCH%26SE0001070%20GSCSAFE000108%20GSCSAFE105%20GSCH%26SE0001032%20GSCH%26SE0001003%20GSCH%26SE0001064%20GSCH%26SE0001005%20GSCH%26SE0001008%20GSCH%26SE0001062%20GSCH%26SE0001046%20GSCH%26SE0001049%20GSCH%26SE0001051%20GSCH%26SE0001053");
-
     $("#wdlc6").attr("href", "https://schneider-electric.csod.com/ui/lms-learning-details/app/externalContent/a32e16a1-1405-432b-8a85-021c3c96f6d8");
-
     $("#wdlc7").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=2518637f-901b-4d82-8137-29115d33fb99");
 
-    $("#wdlc8").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    
+    
+    $("#wdlc11").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=LEAMNCE0001002");
+    $("#wdlc12").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=OPSO155");
+    $("#wdlc13").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001228");
+    $("#wdlc14").attr("href", "https://spiceportal.se.com/web/company_story/home");
+    $("#wdlc15").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=MKTMKTD0001024%20SEAPRDC0001000%20SEASALB0001004");
+    
+    
+    $("#wdlc21").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCQUAE0003%20GSCQUAE0001176%20GSCQUAC0001018");
+    $("#wdlc22").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCQUAE0001187%20GSCQUAE0001181%20GSCQUAE0001180%20GSCQUAE0001177%20GSCQUAE0001178%20GSCQUAE0001182%20GSCQUAE0001183%20GSCQUAE0001185%20GSCQUAE0001186%20GSCQUAE0001179%20GSCQUAE0001188%20GSCQUAE0001189%20GSCQUAE0001190");
 
-    $("#wdlc9").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    
+    
+    $("#wdlc31").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLOGE000003%20GSCLOGE000004%20GSCLOGE000005%20GSCLOGE000006%20GSCHSES0001035%20GSCLOGE000003%20GSCLOGE0001074%20GSCLOGE0001075%20GSCLOGE000006%20GSCLOGE000077%20GSCLOGE000076%20GSCHSES0001035%20GSCLOGES0001000%20GSCLOGE1001044GSCLOGE1001045GSCLOGE1001046GSCLOGE1001047GSCLOGE1001048%20GSCLOGE0001073");
+    $("#wdlc32").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001031%20GSCSUPE0001090%20GSCLOGE0001072%20 GSCHURE0001000%20GSCQUAE0001174");
+    $("#wdlc33").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLOGE1001044%20GSCLOGE1001045%20GSCLOGE1001046%20GSCLOGE1001047%20GSCLOGE1001048");
 
-    $("#wdlc10").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    
+    
+    $("#wdlc41").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLDSE0001040%20GSCLDSE0001000%20GSCLDSE0001074%20OPSO155%20GSCLDSE0001080%20GSCLDSE0001073%20GSCMANC0001002%20GSCMANES0001006%20GSCMANE0001044%20GSCMANE0001045%20GSCMANE0001046%20GSCMANES0001007%20GSCMANE0001047%20GSCMANES0001002%20GSCMANES0001003%20GSCMANES0001000%20GSCMANES0001001%20GSCMANES0001008%20GSCMAND0001014%20GSCMAND0001015%20GSCMAND0001016%20GSCMAND0001017%20GSCINDE0001048%20GSCMANE0001028%20GSCMANE0104000%20GSCMANE0104001%20GSCMANE0104002%20GSCMANE0104003");
+    $("#wdlc42").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCMANE0104001%20GSCMANE0104002%20GSCMANE0001018%20GSCMANE0104003%20GSCMAND0001014%20GSCMAND0001016%20GSCMAND0001017%20GSCMAND0001015%20GSCMAND0001019%20GSCMAND0001021%20GSCMAND0001018%20GSCMAND0001020");
+    $("#wdlc43").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001031%20GSCSUPD0001049%20GSCINDE0001024%20GSCSUPE0001090%20GSCHURE0001000%20GSCQUAE0001174%20GSCINDE0001048%20GSCQUAD0001028%20GSCINDE0001023");
+    $("#wdlc44").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc11").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc12").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    $("#wdlc51").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCMANE0001027%20GSCCPSDS0001000");
+    
+    
+    $("#wdlc61").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=778, 1762 ,1395 ,1763 ,1769 ,1768 ,1758 ,1757 ,1385 ,1756 ,1771 ,1760 ,1389 ,1759 ,1766&query=GSCWDLCPST");
+    $("#wdlc62").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1265, 1266, 1267, 1268&query=GSCWDLCPST");
+    $("#wdlc63").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1241, 1292 ,1297 ,1294 ,1291 ,1296 ,1290 ,1293 ,1295 ,1677&query=GSCWDLCPST");
+    $("#wdlc64").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1243, 1314, 1315, 1317, 1318, 1313, 1319, 1320, 1321&query=GSCWDLCPST");
+    $("#wdlc65").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=1240, 1284 ,1285 ,1283 ,1286&query=GSCWDLCPST");
+    $("#wdlc66").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCWDLCPST");
 
-    $("#wdlc13").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc14").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc15").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    $("#wdlc71").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001165%20CROCROD0001222%20CROCROD0001164%20CROCROD0001177%20CROCROD0001198%20CROCROD0001207%20CROCROD0001206%20CROCROD0001168%20CROCROD0001223%20CROCROD0001170%20HRAHRAES0001017%20CROCROD0001204%20CROCROD0001172%20DIGTECE0001092%20CROCROD0001214");
+    $("#wdlc72").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001188%20CROCROD0001181%20CROCROD0001088%20CROCROD0001205%20CROCROD0001215");
+    $("#wdlc73").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLDSE0001048%20CROCROD0001199%20GHRHRABS0001123%20CROCROD0001227,GHRCROC0001003");
+    $("#wdlc74").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GHRMGTD0001000%20GHRMGTD0001002");
+    $("#wdlc75").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001190%20CROCROD0001226%20CROCROD0001231%20CROCROD0001220%20CROCROD0001201%20CROCROD0001194%20CROCROD0001203%20CROCROD0001224%20CROCROD0001187%20CROCROD0001213%20CROCROD0001183%20CROCROD0001225");
 
-    $("#wdlc16").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc17").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    $("#wdlc81").attr("href", "https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dloRegisterAndLaunch%2526lo%253d5185d027-40a9-40ca-bd56-8c7968ff44f4");
+    $("#wdlc82").attr("href", "https://learn.saylor.org/course/search.php?q=English&areaids=core_course-course");
+    $("#wdlc83").attr("href", "https://www.open.edu/openlearn/search-results?as_q=spanish#gsc.tab=0&gsc.q=spanish&gsc.page=0");
+    $("#wdlc84").attr("href", "https://www.open.edu/openlearn/search-results?as_q=French#gsc.tab=0&gsc.q=French&gsc.page=0");
 
-    $("#wdlc18").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc19").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    $("#wdlc91").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=IPOIPOE0001059%20IPOIPOE0001061%20IPOIPOE0001060%20IPOIPOE0001174%20IPOIPOE0001175%20DIGIPOE0001022%20IPOIPOE0001065%20IPOIPOE0001064%20IPOIPOE0001121");
+    $("#wdlc92").attr("href", "https://www.youtube.com/watch?v=lgIWIPDJuPo&index=3&list=PLpQQipWcxwt9kEYnMTd8nBuRxC3LFmera");
+    $("#wdlc93").attr("href", "https://www.youtube.com/watch?v=rrsb6OdBGzk&list=PLpQQipWcxwt80GgHQBPtO7fZrH7zgb-kH");
+    $("#wdlc94").attr("href", "https://www.youtube.com/watch?v=j-ZAVHk5SaU&index=2&list=PLpQQipWcxwt-CU7fh1_3v-STktoEc0tsL");
+    $("#wdlc95").attr("href", "https://schneider-electric.csod.com/ui/lms-learning-details/app/externalContent/9ebd0fbe-d6ba-4ada-8421-8d68b25bca9e");
+    $("#wdlc96").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=cdf49194-f909-4e07-b8f9-f5f11b1539ce");
+    $("#wdlc97").attr("href", "https://www.youtube.com/watch?v=7cXEOWAStq4");
 
-    $("#wdlc20").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc21").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc22").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
 
-    $("#wdlc23").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc24").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc25").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc26").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc27").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc28").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc29").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
-
-    $("#wdlc30").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    $("#wdlc101").attr("href", "https://schneider-electric.csod.com/");
+    $("#wdlc102").attr("href", "https://schneider-electric.csod.com/LMS/BrowseTraining/BrowseTrainingHome.aspx?tab_page_id=-1700000");
+    $("#wdlc103").attr("href", "https://schneider-electric.coorpacademy.com/dashboard");
+    $("#wdlc104").attr("href", "https://spiceportal.schneider-electric.com/web/my-learning/global-supply-chain-academy1");
+    $("#wdlc105").attr("href", "https://spiceportal.se.com/web/high-performance-culture-philosophy/employee-development");
+    $("#wdlc106").attr("href", "https://schneider-electric.csod.com/catalog/CustomPage.aspx?id=20000563");
+    $("#wdlc107").attr("href", "https://www.youtube.com/watch?v=ru032Mfsfig");
+    $("#wdlc108").attr("href", "https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d72225deb-f787-4846-9acd-3d63ea007877");
     
 });
+
+function lsearch(id) {
+    var static = "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=";
+    var ids = id;
+    var res = static.concat(ids);
+    window.open(res);
+}
+
+function openLink(id) {
+    window.open(id);
+}
+
+function redirectme(id) {
+    window.open(id);
+}
+
+function vplayer(id) {
+    window.open(id);
+}
