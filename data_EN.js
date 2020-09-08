@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 
     document.getElementById("wdlc61").text = "Customer Satisfaction & Quality";
-    document.getElementById("wdlc61").text = "Health & Safety";
+    document.getElementById("wdlc62").text = "Health & Safety";
     document.getElementById("wdlc63").text = "Industrialization";
     document.getElementById("wdlc64").text = "Logistics";
     document.getElementById("wdlc65").text = "Manufacturing";
