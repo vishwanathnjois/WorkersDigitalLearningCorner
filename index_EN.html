@@ -10,44 +10,31 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://schneider-electric.box.com/shared/static/9kzvw6oattd0guxo0k35l3qs99dasoq2"><!-- Hover.css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-p>a:link,p>a:active
-{
-  font-weight:normal;
-  line-height:16px;
-}
-</style>
 
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
 <style type="text/css">
 
+@media screen and (max-width: 480px) {
+    .flip-container, .front, .back {
+        width: 100%;
+        height: 450px;
+        margin: auto;
+      }
+}
 
+@media screen and (min-width: 481px) {
+    .flip-container, .front, .back {
+        width: 260px;
+        height: 340px;
+        margin: auto;
+    }
+}
+
+
+    p>a:link,p>a:active
+    {
+      font-weight:normal;
+      line-height:16px;
+    }
     .df-logo-footer {
     float: left;
     width: 200px;
@@ -96,11 +83,7 @@ $(document).ready(function(){
         transform: rotateY(180deg);
       }
 
-      .flip-container, .front, .back {
-        width: 260px;
-        height: 340px;
-        margin: auto;
-      }
+      
 
       .flipper {
         -webkit-transition: 0.6s;
@@ -293,7 +276,7 @@ function popupwindow(url, title, w, h) {
             </div>
             <!-- Introductory Video Modal -->
               <div class="modal fade" id="videoModal" role="dialog">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-sm">
                 
                   <!-- Modal content-->
                   <div class="modal-content">
