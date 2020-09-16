@@ -45,11 +45,11 @@ $(document).ready(function () {
 
 
 
-    $("#wdlc71").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001165%20CROCROD0001222%20CROCROD0001164%20CROCROD0001177%20CROCROD0001198%20CROCROD0001207%20CROCROD0001206%20CROCROD0001168%20CROCROD0001223%20CROCROD0001170%20HRAHRAES0001017%20CROCROD0001204%20CROCROD0001172%20DIGTECE0001092%20CROCROD0001214");
+    $("#wdlc71").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=c8b899ca-9227-4cc2-abfc-d3c5b487a29c");
     $("#wdlc72").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001188%20CROCROD0001181%20CROCROD0001088%20CROCROD0001205%20CROCROD0001215");
     $("#wdlc73").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLDSE0001048%20CROCROD0001199%20GHRHRABS0001123%20CROCROD0001227,GHRCROC0001003");
     $("#wdlc74").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=eaa7fc73-3397-4a11-8128-72b9073000b3");
-    $("#wdlc75").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001190%20CROCROD0001226%20CROCROD0001231%20CROCROD0001220%20CROCROD0001201%20CROCROD0001194%20CROCROD0001203%20CROCROD0001224%20CROCROD0001187%20CROCROD0001213%20CROCROD0001183%20CROCROD0001225");
+    $("#wdlc75").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=2c9c7807-fc9d-4c10-8517-dec97dba6efc");
 
 
     $("#wdlc81").attr("href", "https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dloRegisterAndLaunch%2526lo%253d5185d027-40a9-40ca-bd56-8c7968ff44f4");
