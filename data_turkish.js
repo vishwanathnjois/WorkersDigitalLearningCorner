@@ -13,6 +13,8 @@ $(document).ready(function () {
     document.getElementById("wdlc13").text = "SPS'nin 40 İlkesi";
     document.getElementById("wdlc14").text = "Şirket Hikayemiz";
     document.getElementById("wdlc15").text = "EcoStruxure";
+    document.getElementById("wdlc16").text = "STRIVE";
+    document.getElementById("wdlc17").text = "SSI";
 
 
     document.getElementById("wdlc21").text = "Müşteri önceliği";

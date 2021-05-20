@@ -13,6 +13,8 @@ $(document).ready(function () {
     document.getElementById("wdlc13").text = "40 Prinsip SPS";
     document.getElementById("wdlc14").text = "Cerita tentang Schneider";
     document.getElementById("wdlc15").text = "EcoStruxure";
+    document.getElementById("wdlc16").text = "STRIVE";
+    document.getElementById("wdlc17").text = "SSI";
 
 
     document.getElementById("wdlc21").text = "Keutamaan Pelanggan";

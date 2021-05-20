@@ -14,6 +14,8 @@ $(document).ready(function () {
     $("#wdlc13").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=CROCROD0001228");
     $("#wdlc14").attr("href", "https://spiceportal.se.com/web/company_story/home");
     $("#wdlc15").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=MKTMKTD0001024%20SEAPRDC0001000%20SEASALB0001004");
+    $("#wdlc16").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
+    $("#wdlc17").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=");
     
     
     $("#wdlc21").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCQUAE0003%20GSCQUAE0001176%20GSCQUAC0001018");

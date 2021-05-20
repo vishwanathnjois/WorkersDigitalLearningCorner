@@ -13,6 +13,8 @@ $(document).ready(function () {
     document.getElementById("wdlc13").text = "Az SPS 40 alapelve";
     document.getElementById("wdlc14").text = "Cégünk története";
     document.getElementById("wdlc15").text = "EcoStruxure";
+    document.getElementById("wdlc16").text = "STRIVE";
+    document.getElementById("wdlc17").text = "SSI";
 
 
     document.getElementById("wdlc21").text = "Az ügyfél az első";

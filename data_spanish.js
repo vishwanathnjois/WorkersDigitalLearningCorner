@@ -13,6 +13,8 @@ $(document).ready(function () {
     document.getElementById("wdlc13").text = "40 principios de SPS";
     document.getElementById("wdlc14").text = "Historia de nuestra empresa";
     document.getElementById("wdlc15").text = "EcoStruxure";
+    document.getElementById("wdlc16").text = "STRIVE";
+    document.getElementById("wdlc17").text = "SSI";
 
 
     document.getElementById("wdlc21").text = "El cliente es primero";

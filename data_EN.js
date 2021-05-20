@@ -9,14 +9,15 @@ $(document).ready(function () {
 
 
     document.getElementById("wdlc11").text = "Core Values";
-    document.getElementById("wdlc12").text = "The Innovation Circle: 3 Phases of Innovation & Change";
-    document.getElementById("wdlc13").text = "40 Principles of SPS";
     document.getElementById("wdlc14").text = "Our Company Story";
     document.getElementById("wdlc15").text = "EcoStruxure";
+    document.getElementById("wdlc16").text = "STRIVE";
+    document.getElementById("wdlc17").text = "SSE";
 
 
     document.getElementById("wdlc21").text = "Customer First";
     document.getElementById("wdlc22").text = "Persona";
+    document.getElementById("wdlc23").text = "GSC Persona";
 
 
     document.getElementById("wdlc31").text = "Warehouse Management Awareness";

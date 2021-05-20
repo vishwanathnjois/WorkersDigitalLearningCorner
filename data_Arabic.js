@@ -13,6 +13,8 @@ $(document).ready(function () {
     document.getElementById("wdlc13").text = " 40 مبادئ  منSPS";
     document.getElementById("wdlc14").text = "قصة شركتنا";
     document.getElementById("wdlc15").text = "بنية EcoStruxure";
+    document.getElementById("wdlc16").text = "STRIVE";
+    document.getElementById("wdlc17").text = "SSI";
 
 
     document.getElementById("wdlc21").text = " العميل أولا";
