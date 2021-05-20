@@ -18,9 +18,9 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc20").text = "Kannada Learning";
-    document.getElementById("wdlc21").text = "Hindi Learning";
-    document.getElementById("wdlc22").text = "Tamil Learning";
-    document.getElementById("wdlc23").text = "Telugu Learning";
+    document.getElementById("wdlc11A").text = "Hindi Learning";
+    document.getElementById("wdlc11B").text = "Tamil Learning";
+    document.getElementById("wdlc11C").text = "Telugu Learning";
 
 
     document.getElementById("wdlc21").text = "Customer First";
