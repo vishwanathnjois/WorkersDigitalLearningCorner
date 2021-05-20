@@ -8,11 +8,19 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "Managing Your Well-Being During Covid 19";
 
 
-    document.getElementById("wdlc11").text = "Core Values";
-    document.getElementById("wdlc14").text = "Our Company Story";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSE";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
+    document.getElementById("wdlc20").text = "Kannada Learning";
+    document.getElementById("wdlc21").text = "Hindi Learning";
+    document.getElementById("wdlc22").text = "Tamil Learning";
+    document.getElementById("wdlc23").text = "Telugu Learning";
 
 
     document.getElementById("wdlc21").text = "Customer First";
@@ -28,8 +36,6 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Lean Manufacturing";
     document.getElementById("wdlc42").text = "Short Interval Management";
     document.getElementById("wdlc43").text = "Smart Factory";
-    document.getElementById("wdlc44").text = "Supply Chain Management";
-
 
 
     document.getElementById("wdlc51").text = "Optimize ETO Processes";
