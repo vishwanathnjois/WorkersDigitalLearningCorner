@@ -25,7 +25,6 @@ $(document).ready(function () {
 
     document.getElementById("wdlc21").text = "Customer First";
     document.getElementById("wdlc22").text = "Persona";
-    document.getElementById("wdlc23").text = "GSC Persona";
 
 
     document.getElementById("wdlc31").text = "Warehouse Management Awareness";
