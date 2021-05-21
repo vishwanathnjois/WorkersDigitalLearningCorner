@@ -35,6 +35,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Lean Manufacturing";
     document.getElementById("wdlc42").text = "Short Interval Management";
     document.getElementById("wdlc43").text = "Smart Factory";
+    document.getElementById("wdlc44").text = "Industrialization";
 
 
     document.getElementById("wdlc51").text = "Optimize ETO Processes";

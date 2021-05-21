@@ -15,7 +15,7 @@ $(document).ready(function () {
     $("#wdlc14").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001048%20GSCMANDS0001002%20GSCMANE0001044%20GSCMANE0001045%20GSCMANE0001046%20GSCMANE0001047%20GSCMANES0001000%20GSCMANES0001001%20GSCMANES0001002%20GSCMANES0001006");
     $("#wdlc15").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCQUAD0001028");
     $("#wdlc16").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLOGES0001033%20GSCLOGE0001072");
-    $("#wdlc17").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCCPSDS0001000%20GSCINDE0001024");
+    $("#wdlc17").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001024");
     $("#wdlc18").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=SDASDGES0001053%20SDASDGES0001054%20SDASDGES0001055%20SDASDGES0001059%20SDASDGES0001061%20SDASDGES0001069%20SDASDGES0001071");
     $("#wdlc19").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCSCMES0001018%20GSCSCMES0001019%20GSCSCMES0001017%20GSCSCMES0001020%20GSCSCMES0001021%20GSCSCMES0001022");
     $("#wdlc20").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=6fbcc96b-36f3-45d0-8c68-5e9781596b7a");
@@ -31,17 +31,17 @@ $(document).ready(function () {
     
     
     $("#wdlc31").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLOGE000003%20GSCLOGE000076%20GSCLOGE000077%20GSCLOGE000074%20GSCLOGE000075%20GSCLOGE000006");
-    $("#wdlc32").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001031%20GSCSUPE0001090%20GSCLOGE0001072%20 GSCHURE0001000%20GSCQUAE0001174");
+    $("#wdlc32").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=39ac8437-5018-4478-8e76-ff005776be79");
     $("#wdlc33").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLOGE1001044%20GSCLOGE1001045%20GSCLOGE1001046%20GSCLOGE1001047%20GSCLOGE1001048");
 
     
     
     $("#wdlc41").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLDSE0001040%20GSCLDSE0001000%20GSCLDSE0001074%20GSCLDSE0001080%20GSCLDSE0001073%20GSCMANC0001002%20GSCMNFE100001%20GSCMANC0001009%20GSCMANES0001008%20GSCMANES0001000%20GSCMANES0001001%20GSCMANES0001002%20GSCMANES0001003%20GSCINDE0001049%20GSCINDE0001050");
     $("#wdlc42").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCMANE0104000%20GSCMANE0104001%20GSCMANE0104002%20GSCMANE0001018%20GSCMANE0104003%20GSCMAND0001014%20GSCMAND0001016%20GSCMAND0001017%20GSCMAND0001015%20GSCMAND0001019%20GSCMAND0001021%20GSCMAND0001018%20GSCMAND0001020%20GSCINDE0001048%20GSCMANE0001028");
-    $("#wdlc43").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001031%20GSCINDE0001023%20GSCMANE0001044%20GSCMANE0001045%20GSCMANE0001046%20GSCMANE0001047%20GSCMANES0001006%20GSCMANDS0001002%20GSCINDE0001023");
-    
+    $("#wdlc43").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001024%20GSCINDE0001031%20GSCINDE0001023%20GSCMANE0001044%20GSCMANE0001045%20GSCMANE0001046%20GSCMANE0001047%20GSCMANES0001006%20GSCMANDS0001002%20GSCINDE0001023");
+    $("#wdlc44").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCMANE0001027%20GSCCPSDS0001000");
 
-    $("#wdlc51").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCMANE0001027%20GSCCPSDS0001000");
+    $("#wdlc51").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDES0001004%20GSCMANE0001027%20GSCCPSES0001013%20GSCCPSES0001011");
     
     
     $("#wdlc61").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?pageNumber=1&subjectIds=778, 1762 ,1395 ,1763 ,1769 ,1768 ,1758 ,1757 ,1385 ,1756 ,1771 ,1760 ,1389 ,1759 ,1766&query=GSCWDLCPST");
