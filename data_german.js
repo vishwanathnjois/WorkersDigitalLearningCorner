@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "Verwalten Ihres Wohlbefindens während Covid 19";
 
 
-    document.getElementById("wdlc11").text = "CUnsere Grundwerte";
-    document.getElementById("wdlc12").text = "Der Innovationskreis: Die 3 Phasen von Innovation und Wandel";
-    document.getElementById("wdlc13").text = "40 Prinzipien von SPS";
-    document.getElementById("wdlc14").text = "Unsere Unternehmensgeschichte";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "Der Kunde zuerst";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Lean Manufacturing";
     document.getElementById("wdlc42").text = "Kurzes Intervallmanagement";
     document.getElementById("wdlc43").text = "Intelligente Fabrik";
-    document.getElementById("wdlc44").text = "Leitung der Lieferkette";
+    document.getElementById("wdlc44").text = "Industrialisierung";
 
 
 

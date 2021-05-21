@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "在COVID19期间管理您的健康";
 
 
-    document.getElementById("wdlc11").text = "核心价值";
-    document.getElementById("wdlc12").text = "创新圈：创新与变革的三个阶段";
-    document.getElementById("wdlc13").text = "SPS的40条原则";
-    document.getElementById("wdlc14").text = "我们的公司故事";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "客户第一";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "精益制造";
     document.getElementById("wdlc42").text = "短期间隔管理";
     document.getElementById("wdlc43").text = "智能工厂";
-    document.getElementById("wdlc44").text = "供应链管理";
+    document.getElementById("wdlc44").text = "工业化";
 
 
 

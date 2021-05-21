@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "Doğum sırasında refahınızı yönetme19";
 
 
-    document.getElementById("wdlc11").text = "Temel değerlerimiz";
-    document.getElementById("wdlc12").text = "Yenilik Çemberi: Yenilik ve Değişimin 3 Aşaması";
-    document.getElementById("wdlc13").text = "SPS'nin 40 İlkesi";
-    document.getElementById("wdlc14").text = "Şirket Hikayemiz";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "Müşteri önceliği";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Yalın Üretim";
     document.getElementById("wdlc42").text = "Kısa Aralık Yönetimi";
     document.getElementById("wdlc43").text = "Akıllı Fabrika";
-    document.getElementById("wdlc44").text = "Tedarik Zinciri Yönetimi";
+    document.getElementById("wdlc44").text = "Sanayileşme";
 
 
 

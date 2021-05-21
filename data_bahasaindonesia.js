@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "Mengelola kesejahteraan Anda selama COVID19";
 
 
-    document.getElementById("wdlc11").text = "Nilai-nilai Utama";
-    document.getElementById("wdlc12").text = "Lingkaran Inovasi: 3 Fase Inovasi & Perubahan";
-    document.getElementById("wdlc13").text = "40 Prinsip SPS";
-    document.getElementById("wdlc14").text = "Cerita tentang Schneider";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "Keutamaan Pelanggan";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Lean Manufacturing";
     document.getElementById("wdlc42").text = "Manajemen Interval Pendek";
     document.getElementById("wdlc43").text = "Pabrik Pintar";
-    document.getElementById("wdlc44").text = "Manajemen Rantai Suplai";
+    document.getElementById("wdlc44").text = "Industrialisasi";
 
 
 

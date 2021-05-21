@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "การจัดการความเป็นอยู่ที่ดีของคุณในช่วง COVID-19";
 
 
-    document.getElementById("wdlc11").text = "ค่านิยมหลักของเรา";
-    document.getElementById("wdlc12").text = "The Innovation Circle: 3 เฟสของนวัตกรรมและการเปลี่ยนแปลง";
-    document.getElementById("wdlc13").text = "40 หลักการของ SPS";
-    document.getElementById("wdlc14").text = "เรื่องราว บริษัท ของเรา";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = " ลูกค้ามาเป็นอันดับหนี่ง";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "การผลิตแบบ lean";
     document.getElementById("wdlc42").text = "การจัดการช่วงระยะสั้น";
     document.getElementById("wdlc43").text = "โรงงานอัจฉริยะ";
-    document.getElementById("wdlc44").text = "การจัดการระบบห่วงโซ่การผลิต ";
+    document.getElementById("wdlc44").text = "อุตสาหกรรม ";
 
 
 

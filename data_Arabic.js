@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "إدارة رفاهك خلال Covid 19";
 
 
-    document.getElementById("wdlc11").text = "قيمنا الأساسية";
-    document.getElementById("wdlc12").text = "دائرة الابتكار: المراحل الثلاثة للابتكار والتغيير";
-    document.getElementById("wdlc13").text = " 40 مبادئ  منSPS";
-    document.getElementById("wdlc14").text = "قصة شركتنا";
-    document.getElementById("wdlc15").text = "بنية EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = " العميل أولا";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "تصنيع محدود الفاقد";
     document.getElementById("wdlc42").text = "إدارة الفاصل الزمني القصير";
     document.getElementById("wdlc43").text = "مصنع ذكي";
-    document.getElementById("wdlc44").text = "إدارة سلسلة التوريد";
+    document.getElementById("wdlc44").text = "تصنيع";
 
 
 

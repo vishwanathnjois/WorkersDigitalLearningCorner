@@ -1,6 +1,6 @@
 $(document).ready(function () {
     document.getElementById("wdlc1").text = "Безопасност в Schneider";
-    document.getElementById("wdlc2").text = Електрическа безопасност";
+    document.getElementById("wdlc2").text = "Електрическа безопасност";
     document.getElementById("wdlc3").text = "Ергономичност";
     document.getElementById("wdlc4").text = "Започнете безопасно";
     document.getElementById("wdlc5").text = "Други теми";
@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "Управление на благосъстоянието по време на COVID-19";
 
 
-    document.getElementById("wdlc11").text = "Нашите ценности";
-    document.getElementById("wdlc12").text = "Кръг на иновацията: 3-те фази на иновацията и промяната";
-    document.getElementById("wdlc13").text = "40 принципа на SPS";
-    document.getElementById("wdlc14").text = "История на компанията";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "Клиентът е пръв";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Лийн производство";
     document.getElementById("wdlc42").text = "SIM - Управление на кратки интервали";
     document.getElementById("wdlc43").text = "Умна фабрика";
-    document.getElementById("wdlc44").text = "Управление на Верига за доставки";
+    document.getElementById("wdlc44").text = "Индустриализация";
 
 
 

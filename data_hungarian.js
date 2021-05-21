@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "A jólét kezelése a COVID-19 alatt";
 
 
-    document.getElementById("wdlc11").text = "Alapvető értékeink";
-    document.getElementById("wdlc12").text = "Az innovációs kör: az innováció és a változás három fázisa";
-    document.getElementById("wdlc13").text = "Az SPS 40 alapelve";
-    document.getElementById("wdlc14").text = "Cégünk története";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "Az ügyfél az első";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Lean gyártás";
     document.getElementById("wdlc42").text = "Short Interval Management";
     document.getElementById("wdlc43").text = "Intelligens gyár";
-    document.getElementById("wdlc44").text = "Ellátásilánc-menedzsment";
+    document.getElementById("wdlc44").text = "Iparosítás";
 
 
 

@@ -8,13 +8,15 @@ $(document).ready(function () {
     document.getElementById("wdlc7").text = "Quản lý sức khỏe của bạn trong COVID-19";
 
 
-    document.getElementById("wdlc11").text = "Giá trị cốt lõi của chúng tôi";
-    document.getElementById("wdlc12").text = "Vòng tròn đổi mới: 3 giai đoạn đổi mới và thay đổi";
-    document.getElementById("wdlc13").text = "40 nguyên tắc của SPS";
-    document.getElementById("wdlc14").text = "Câu chuyện công ty của chúng tôi";
-    document.getElementById("wdlc15").text = "EcoStruxure";
-    document.getElementById("wdlc16").text = "STRIVE";
-    document.getElementById("wdlc17").text = "SSI";
+    document.getElementById("wdlc11").text = "Schneider Essentials";
+    document.getElementById("wdlc12").text = "EcoStruxure";
+    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc14").text = "Lean Manufacturing";
+    document.getElementById("wdlc15").text = "Quality";
+    document.getElementById("wdlc16").text = "Logistics";
+    document.getElementById("wdlc17").text = "Industrialization";
+    document.getElementById("wdlc18").text = "Digital Acumen";
+    document.getElementById("wdlc19").text = "STRIVE";
 
 
     document.getElementById("wdlc21").text = "Khách hang là trên hết";
@@ -29,7 +31,7 @@ $(document).ready(function () {
     document.getElementById("wdlc41").text = "Sản xuất tinh gọn";
     document.getElementById("wdlc42").text = "Quản lý theo giai đoạn";
     document.getElementById("wdlc43").text = "Nhà máy thông minh";
-    document.getElementById("wdlc44").text = "Quản lý Chuỗi Cung ứng";
+    document.getElementById("wdlc44").text = "Ngành công nghiệp";
 
 
 
