@@ -11,7 +11,6 @@ $(document).ready(function () {
     
     $("#wdlc11").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=2164c3c7-5ca2-4e0d-8058-ba3fe196147a");
     $("#wdlc12").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=MKTMKTD0001024%20SEAPRDC0001000");
-    $("#wdlc13").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=SSE");
     $("#wdlc14").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCINDE0001048%20GSCMANDS0001002%20GSCMANE0001044%20GSCMANE0001045%20GSCMANE0001046%20GSCMANE0001047%20GSCMANES0001000%20GSCMANES0001001%20GSCMANES0001002%20GSCMANES0001006");
     $("#wdlc15").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCQUAD0001028");
     $("#wdlc16").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCLOGES0001033%20GSCLOGE0001072");
