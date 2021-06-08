@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     document.getElementById("wdlc11").text = "Schneider Essentials";
     document.getElementById("wdlc12").text = "EcoStruxure";
-    document.getElementById("wdlc13").text = "SSE";
+    document.getElementById("wdlc13").text = "SSE 2h";
     document.getElementById("wdlc14").text = "Lean Manufacturing";
     document.getElementById("wdlc15").text = "Quality";
     document.getElementById("wdlc16").text = "Logistics";
@@ -21,6 +21,8 @@ $(document).ready(function () {
     document.getElementById("wdlc11A").text = "Hindi Learning";
     document.getElementById("wdlc11B").text = "Tamil Learning";
     document.getElementById("wdlc11C").text = "Telugu Learning";
+    document.getElementById("wdlc11D").text = "ETO";
+
 
 
     document.getElementById("wdlc21").text = "Customer First";
