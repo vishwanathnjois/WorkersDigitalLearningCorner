@@ -22,6 +22,8 @@ $(document).ready(function () {
     document.getElementById("wdlc11B").text = "Tamil Learning";
     document.getElementById("wdlc11C").text = "Telugu Learning";
     document.getElementById("wdlc11D").text = "ETO";
+	document.getElementById("wdlc11E").text = "Introductory Video";
+	
 
 
 
