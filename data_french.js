@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "la sécurité chez Schneider electric";
     document.getElementById("wdlc2").text = "Sécurité électrique";
     document.getElementById("wdlc3").text = "Ergonomie";
-    document.getElementById("wdlc4").text = "Les basiques de la sécurité";
+ 
     document.getElementById("wdlc5").text = "Autres sujets";
     document.getElementById("wdlc6").text = "COVID19 - Ce que vous devez savoir";
     document.getElementById("wdlc7").text = "Gérer votre bien-être pendant COVID19";
@@ -79,6 +79,8 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "Coin d'apprentissage interfonctionnel";
     document.getElementById("wdlc107").text = "Connaissances de base sur  l'électricité ";
     document.getElementById("wdlc108").text = "Formations digitales externes";
+
+	document.getElementById("wdlc109").text = "Strive";
 
     
 });
