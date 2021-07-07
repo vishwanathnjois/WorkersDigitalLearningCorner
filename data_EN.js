@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "Safety at Schneider Electric";
     document.getElementById("wdlc2").text = "Electrical Safety";
     document.getElementById("wdlc3").text = "Ergonomics";
-        document.getElementById("wdlc5").text = "Other Topics";
+ document.getElementById("wdlc5").text = "Other Topics";
     document.getElementById("wdlc6").text = "COVID-19: What You Need to Know";
     document.getElementById("wdlc7").text = "Managing Your Well-Being During Covid 19";
 
@@ -82,6 +82,9 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "Cross-Functional Learning Corner";
     document.getElementById("wdlc107").text = "Basic Electrical Theory";
     document.getElementById("wdlc108").text = "External Digital Trainings";
+	
+	document.getElementById("wdlc109").text = "External Digital Trainings";
+	
+	
 
-    document.getElementById("wdlc109").text = "Strive";
 });
