@@ -18,6 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+	document.getElementById("wdlc11E").text = "فيديو تمهيدي";
 
 
     document.getElementById("wdlc21").text = " العميل أولا";
