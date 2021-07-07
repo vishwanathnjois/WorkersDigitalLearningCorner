@@ -83,7 +83,7 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "Basic Electrical Theory";
     document.getElementById("wdlc108").text = "External Digital Trainings";
 	
-	document.getElementById("wdlc109").text = "External Digital Trainings";
+	document.getElementById("wdlc109").text = "Strive";
 	
 	
 
