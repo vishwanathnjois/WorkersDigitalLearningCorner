@@ -86,6 +86,7 @@ $(document).ready(function () {
     $("#wdlc107").attr("href", "https://www.youtube.com/watch?v=ru032Mfsfig");
     $("#wdlc108").attr("href", "https://schneider-electric.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253dphnxdriver%2526routename%253dAdmin%252fPlayerPageRedirectHandler%2526Route%253d%25252flms-learner-playlist%25252fPlaylistDetails%2526Parameters%253dplaylistId%2525253d6704152a-8e1e-4823-8273-9264f312a326");
     
+	$("#wdlc109").attr("href", "https://schneider-electric.csod.com/ui/lms-learner-search/search?query=GSCSCMES0001018%20GSCSCMES0001019%20GSCSCMES0001017%20GSCSCMES0001020%20GSCSCMES0001021%20GSCSCMES0001022");
 });
 
 function lsearch(id) {
