@@ -79,6 +79,6 @@ $(document).ready(function () {
     document.getElementById("wdlc108").text = "التدريب الرقمي الخارجي";
 	
 	
-    document.getElementById("wdlc109").text = "Strive";
+  document.getElementById("wdlc109").text = "Strive";
     
 });
