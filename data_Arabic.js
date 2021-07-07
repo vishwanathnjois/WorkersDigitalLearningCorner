@@ -2,8 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "السلامة في شنايدر إلكتريك";
     document.getElementById("wdlc2").text = "السلامة الكهربائية";
     document.getElementById("wdlc3").text = "بيئة العمل";
- 
-    document.getElementById("wdlc5").text = "موضوعات أخرى";
+     document.getElementById("wdlc5").text = "موضوعات أخرى";
     document.getElementById("wdlc6").text = "COVID-19: ما تحتاج إلى معرفته";
     document.getElementById("wdlc7").text = "إدارة رفاهك خلال Covid 19";
 
