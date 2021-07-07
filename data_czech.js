@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "Bezpečnost u společnosti Schneider";
     document.getElementById("wdlc2").text = "Elektrická bezpečnost";
     document.getElementById("wdlc3").text = "Ergonomie";
-    document.getElementById("wdlc4").text = "Začněte bezpečně";
+  
     document.getElementById("wdlc5").text = "Naše hodnoty";
     document.getElementById("wdlc6").text = "COVID-19: Co potřebujete vědět";
     document.getElementById("wdlc7").text = "Správa vaší pohody během Covid 19";
@@ -79,5 +79,6 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "základní teorie elektrických sítí";
     document.getElementById("wdlc108").text = "Externí digitální školení";
 
+	document.getElementById("wdlc109").text = "Strive";
     
 });
