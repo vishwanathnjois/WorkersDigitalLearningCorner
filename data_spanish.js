@@ -79,6 +79,7 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "Teoría eléctrica básica";
     document.getElementById("wdlc108").text = "Formación Digital Externa";
 	
+	document.getElementById("wdlc109").text = "Strive";
 
 
     
