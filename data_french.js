@@ -2,7 +2,6 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "la sécurité chez Schneider electric";
     document.getElementById("wdlc2").text = "Sécurité électrique";
     document.getElementById("wdlc3").text = "Ergonomie";
- 
     document.getElementById("wdlc5").text = "Autres sujets";
     document.getElementById("wdlc6").text = "COVID19 - Ce que vous devez savoir";
     document.getElementById("wdlc7").text = "Gérer votre bien-être pendant COVID19";
