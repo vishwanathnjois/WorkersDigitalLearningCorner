@@ -78,6 +78,6 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "زاوية التعلم للوظائف التبادلية";
     document.getElementById("wdlc108").text = "التدريب الرقمي الخارجي";
 	
-	 document.getElementById("wdlc109").text = "Strive";
+    document.getElementById("wdlc109").text = "Strive";
     
 });
