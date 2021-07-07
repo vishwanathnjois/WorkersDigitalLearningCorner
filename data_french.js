@@ -9,7 +9,6 @@ $(document).ready(function () {
     document.getElementById("wdlc11E").text = "Vidéo d'introduction";
 	document.getElementById("wdlc11").text = "Schneider Essentials";
     document.getElementById("wdlc12").text = "EcoStruxure";
-    document.getElementById("wdlc13").text = "SSE 2h";
     document.getElementById("wdlc14").text = "Lean Manufacturing";
     document.getElementById("wdlc15").text = "Quality";
     document.getElementById("wdlc16").text = "Logistics";
@@ -63,8 +62,8 @@ $(document).ready(function () {
     document.getElementById("wdlc84").text = "Apprends le français";
 
 
-
-    document.getElementById("wdlc91").text = "Microsoft Office 365";
+    document.getElementById("wdlc13").text = "SSE 2h";
+	document.getElementById("wdlc91").text = "Microsoft Office 365";
     document.getElementById("wdlc95").text = "Compétences informatiques";
     document.getElementById("wdlc96").text = "Capacité numérique";
     document.getElementById("wdlc97").text = "Bases de l'informatique";
