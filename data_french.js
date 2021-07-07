@@ -7,7 +7,7 @@ $(document).ready(function () {
     document.getElementById("wdlc6").text = "COVID19 - Ce que vous devez savoir";
     document.getElementById("wdlc7").text = "Gérer votre bien-être pendant COVID19";
 
-
+    document.getElementById("wdlc11E").text = "Vidéo d'introduction";
     document.getElementById("wdlc11").text = "Schneider Essentials";
     document.getElementById("wdlc12").text = "EcoStruxure";
     document.getElementById("wdlc13").text = "SSE";
@@ -18,7 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
-	document.getElementById("wdlc11E").text = "Vidéo d'introduction";
+
 	
 
 
