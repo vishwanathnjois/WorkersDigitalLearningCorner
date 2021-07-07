@@ -17,6 +17,8 @@ $(document).ready(function () {
     document.getElementById("wdlc17").text = "Industrialization";
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
+	document.getElementById("wdlc11E").text = "Úvodní video";
+
 
 
     document.getElementById("wdlc21").text = "Zákazník na prvním místě";
