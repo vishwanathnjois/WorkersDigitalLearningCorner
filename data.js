@@ -80,7 +80,7 @@ $(document).ready(function () {
     $("#wdlc101").attr("href", "https://schneider-electric.csod.com/");
     $("#wdlc102").attr("href", "https://schneider-electric.csod.com/LMS/BrowseTraining/BrowseTrainingHome.aspx?tab_page_id=-1700000");
     $("#wdlc103").attr("href", "https://schneider-electric.coorpacademy.com/dashboard");
-    $("#wdlc104").attr("href", "https://spiceportal.schneider-electric.com/web/my-learning/global-supply-chain-academy1");
+    $("#wdlc104").attr("href", "https://spiceportal.se.com/web/global-human-resources/gsc-academy");
     $("#wdlc105").attr("href", "https://spiceportal.se.com/web/high-performance-culture-philosophy/employee-development");
     $("#wdlc106").attr("href", "https://schneider-electric.csod.com/catalog/CustomPage.aspx?id=20000563");
     $("#wdlc107").attr("href", "https://www.youtube.com/watch?v=ru032Mfsfig");
