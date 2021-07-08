@@ -2,7 +2,6 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "Keamanan di Schneider";
     document.getElementById("wdlc2").text = "Keamanan Elektrikal";
     document.getElementById("wdlc3").text = "Ilmu Ergonomi";
-    document.getElementById("wdlc4").text = "Mulailah dengan Aman";
     document.getElementById("wdlc5").text = "Topik-topik lainnya";
     document.getElementById("wdlc6").text = "COVID19 - Apa yang perlu diketahui";
     document.getElementById("wdlc7").text = "Mengelola kesejahteraan Anda selama COVID19";
@@ -18,6 +17,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+	 document.getElementById("wdlc11E").text = "Video Pendahuluan";
 
 
     document.getElementById("wdlc21").text = "Keutamaan Pelanggan";
@@ -78,5 +78,5 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "Teori Dasar Elektrikal";
     document.getElementById("wdlc108").text = "Pelatihan Digital Eksternal";
 
-    
+    document.getElementById("wdlc109").text = "Strive";
 });
