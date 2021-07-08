@@ -2,7 +2,6 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "Sicurezza in Schneider";
     document.getElementById("wdlc2").text = "Sicurezza elettrica";
     document.getElementById("wdlc3").text = "Ergonomia";
-    document.getElementById("wdlc4").text = "Avvia Safe";
     document.getElementById("wdlc5").text = "Altri argomenti";
     document.getElementById("wdlc6").text = "COVID-19: Quello che devi sapere";
     document.getElementById("wdlc7").text = "Gestire il tuo benessere durante COVID-19";
@@ -18,6 +17,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+	   document.getElementById("wdlc11E").text = "Video introduttivo";
 
 
     document.getElementById("wdlc21").text = "Il cliente prima di tutto";
@@ -78,5 +78,5 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "teoria elettrica di base";
     document.getElementById("wdlc108").text = "Formazione digitale esterna";
 
-    
+    document.getElementById("wdlc109").text = "Strive";
 });
