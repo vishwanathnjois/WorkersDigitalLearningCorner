@@ -2,8 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "A Schneider biztonsága";
     document.getElementById("wdlc2").text = "Elektromos biztonság";
     document.getElementById("wdlc3").text = "Ergonómia";
-    document.getElementById("wdlc4").text = "Biztonságos indítás";
-    document.getElementById("wdlc5").text = "Egyéb témák";
+     document.getElementById("wdlc5").text = "Egyéb témák";
     document.getElementById("wdlc6").text = "COVID-19: Amit tudnod kell";
     document.getElementById("wdlc7").text = "A jólét kezelése a COVID-19 alatt";
 
@@ -18,6 +17,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+	document.getElementById("wdlc11E").text = "Bevezető videó";
 
 
     document.getElementById("wdlc21").text = "Az ügyfél az első";
@@ -77,6 +77,9 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "Tanulósarok más területekről";
     document.getElementById("wdlc107").text = "Elektromosság alapjai";
     document.getElementById("wdlc108").text = "Külső digitális képzések";
+	
+	document.getElementById("wdlc109").text = "Strive";
+	
 
     
 });
