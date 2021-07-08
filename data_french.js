@@ -9,6 +9,7 @@ $(document).ready(function () {
     document.getElementById("wdlc11E").text = "Vidéo d'introduction";
 	document.getElementById("wdlc11").text = "Schneider Essentials";
     document.getElementById("wdlc12").text = "EcoStruxure";
+	 document.getElementById("wdlc13").text = "SSE 2h";
     document.getElementById("wdlc14").text = "Lean Manufacturing";
     document.getElementById("wdlc15").text = "Quality";
     document.getElementById("wdlc16").text = "Logistics";
@@ -16,7 +17,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
-    document.getElementById("wdlc13").text = "SSE 2h";
+   
 	
 
 	
