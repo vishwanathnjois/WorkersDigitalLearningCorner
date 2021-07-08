@@ -80,7 +80,6 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "Connaissances de base sur  l'électricité ";
     document.getElementById("wdlc108").text = "Formations digitales externes";
 
-	document.getElementById("wdlc109").text = "Strive";
-
+	
     
 });
