@@ -80,5 +80,7 @@ $(document).ready(function () {
     document.getElementById("wdlc107").text = "Elektrische Grundlagen";
     document.getElementById("wdlc108").text = "Externe digitale Schulungen";
 
+	document.getElementById("wdlc109").text = "Strive";
+	
     
 });
