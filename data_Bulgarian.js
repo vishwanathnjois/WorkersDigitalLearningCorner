@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "Безопасност в Schneider";
     document.getElementById("wdlc2").text = "Електрическа безопасност";
     document.getElementById("wdlc3").text = "Ергономичност";
-    document.getElementById("wdlc4").text = "Започнете безопасно";
+   
     document.getElementById("wdlc5").text = "Други теми";
     document.getElementById("wdlc6").text = "COVID-19: Какво трябва да знаете";
     document.getElementById("wdlc7").text = "Управление на благосъстоянието по време на COVID-19";
@@ -18,6 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+		 document.getElementById("wdlc11E").text = "Уводно видео";
 
 
     document.getElementById("wdlc21").text = "Клиентът е пръв";
@@ -77,6 +78,8 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "Кът за обучения в различни области";
     document.getElementById("wdlc107").text = "Основи на електричеството";
     document.getElementById("wdlc108").text = "Онлайн обучения от външни източници";
+	
+		document.getElementById("wdlc109").text = "Strive";
 
     
 });

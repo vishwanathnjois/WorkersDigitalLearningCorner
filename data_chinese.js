@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "施耐德电气的安全性";
     document.getElementById("wdlc2").text = "电气安全";
     document.getElementById("wdlc3").text = "人体工程学";
-    document.getElementById("wdlc4").text = "安全开始";
+  
     document.getElementById("wdlc5").text = "其他主题";
     document.getElementById("wdlc6").text = "COVID19-您需要知道的";
     document.getElementById("wdlc7").text = "在COVID19期间管理您的健康";
@@ -18,6 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+		 document.getElementById("wdlc11E").text = "我们有话说";
 
 
     document.getElementById("wdlc21").text = "客户第一";
@@ -77,6 +78,8 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "跨职能学习角";
     document.getElementById("wdlc107").text = "基础电气知识学习";
     document.getElementById("wdlc108").text = "外部在线学习资源";
+	
+		document.getElementById("wdlc109").text = "Strive";
 
     
 });

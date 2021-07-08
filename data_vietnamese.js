@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "An toàn tại Schneider";
     document.getElementById("wdlc2").text = "An toàn điện";
     document.getElementById("wdlc3").text = "Công thái học";
-    document.getElementById("wdlc4").text = "Bắt đầu an toàn";
+ 
     document.getElementById("wdlc5").text = "Các chủ đề khác";
     document.getElementById("wdlc6").text = "COVID-19: Những điều bạn cần biết";
     document.getElementById("wdlc7").text = "Quản lý sức khỏe của bạn trong COVID-19";
@@ -18,6 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+		 document.getElementById("wdlc11E").text = "Video giới thiệu";
 
 
     document.getElementById("wdlc21").text = "Khách hang là trên hết";
@@ -77,6 +78,8 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "Góc học tập về các bộ phận liên quan";
     document.getElementById("wdlc107").text = "Lý ThuyẾT ĐiỆN Cơ BẢN";
     document.getElementById("wdlc108").text = "Đào tạo bên ngoài về kỹ thuật số";
+	
+		document.getElementById("wdlc109").text = "Strive";
 
     
 });
