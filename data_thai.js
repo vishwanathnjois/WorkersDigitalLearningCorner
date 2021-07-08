@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "ความปลอดภัยใน Schneider Electric";
     document.getElementById("wdlc2").text = "ความปลอดภัยด้านไฟฟ้า ";
     document.getElementById("wdlc3").text = "หลักการยศาสตร์ ";
-    document.getElementById("wdlc4").text = "เริ่มต้นด้วยความปลอดภัย";
+
     document.getElementById("wdlc5").text = "หัวข้ออื่นๆ";
     document.getElementById("wdlc6").text = "COVID-19: สิ่งที่คุณต้องรู้";
     document.getElementById("wdlc7").text = "การจัดการความเป็นอยู่ที่ดีของคุณในช่วง COVID-19";
@@ -18,6 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+		 document.getElementById("wdlc11E").text = "วิดีโอบทนํา";
 
 
     document.getElementById("wdlc21").text = " ลูกค้ามาเป็นอันดับหนี่ง";
@@ -77,6 +78,8 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "มุมการเรียนรู้ข้ามสายงาน";
     document.getElementById("wdlc107").text = "ทฤษฎีไฟฟ้าพื้นฐาน";
     document.getElementById("wdlc108").text = "การฝึกอบรมดิจิตอลจากภายนอก";
+	
+		document.getElementById("wdlc109").text = "Strive";
 
     
 });
