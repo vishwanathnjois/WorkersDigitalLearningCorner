@@ -2,7 +2,7 @@ $(document).ready(function () {
     document.getElementById("wdlc1").text = "Schneider'de Güvenlik";
     document.getElementById("wdlc2").text = "Elektrik Güvenliği";
     document.getElementById("wdlc3").text = "Ergonomi";
-    document.getElementById("wdlc4").text = "Güvenli Başlayın";
+ 
     document.getElementById("wdlc5").text = "Diğer Konular";
     document.getElementById("wdlc6").text = "COVID-19: Bilmeniz Gerekenler";
     document.getElementById("wdlc7").text = "Doğum sırasında refahınızı yönetme19";
@@ -18,6 +18,7 @@ $(document).ready(function () {
     document.getElementById("wdlc18").text = "Digital Acumen";
     document.getElementById("wdlc19").text = "STRIVE";
     document.getElementById("wdlc11D").text = "ETO";
+		 document.getElementById("wdlc11E").text = "Tanıtım Videosu";
 
 
     document.getElementById("wdlc21").text = "Müşteri önceliği";
@@ -77,6 +78,8 @@ $(document).ready(function () {
     document.getElementById("wdlc106").text = "İşlevsel Öğrenme Köşesi";
     document.getElementById("wdlc107").text = "temel elektrik teorisi";
     document.getElementById("wdlc108").text = "Harici Dijital Eğitimler";
+	
+		document.getElementById("wdlc109").text = "Strive";
 
     
 });
